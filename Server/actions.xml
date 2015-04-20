@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Actions>
+
+	<Action type="Physics" value="RangedMovement">
+		<Parameters>Position, Range, MovingRight, MovingLeft</Parameters>
+	</Action>
+	<Action type="Physics" value="Collisions">
+		<Parameters>Position, BoundingBox, ObjectMap</Parameters>
+	</Action>
+	<Action type="Physics" value="ShotMovement">
+		<Parameters>Position, Range, ShotSpeed</Parameters>
+	</Action>
+	
+	<Action type="Physics" value="AlienMovement">
+	    <Parameters>MovingRight, Count, ObjectMap</Parameters>
+	</Action>
+
+</Actions>

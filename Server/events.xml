@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Events>
+
+	<Event type="Collision" value="Collision">
+		<Parameters>Position</Parameters>
+	</Event>  
+	<Event type="KeyPressed" value="KeyPressed">
+		<Parameters>MovingRight, MovingLeft, ObjectMap</Parameters>
+	</Event>
+	<Event type="KeyReleased" value="KeyReleased">
+		<Parameters>MovingRight, MovingLeft</Parameters>
+	</Event>
+	
+	<Event type="Spawn" value="Spawn">
+		<Parameters>Position</Parameters>
+	</Event>
+	<Event type="SpawnNew" value="SpawnNew">
+		<Parameters>ObjectMap</Parameters>
+	</Event>
+	<Event type="MakeShot" value="MakeShot">
+	    <Parameters>ObjectMap, Position</Parameters>
+	</Event>
+	
+</Events>

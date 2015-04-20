@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GameObjects>
+
+	<GameObject GUID="Default">
+		<Property type="Representation">
+			<Parameter type="Text">defaultTwo.png</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">2000</Parameter>
+			<Parameter type="Float">2000</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="RandomInt">255</Parameter>
+			<Parameter type="RandomInt">255</Parameter>
+			<Parameter type="RandomInt">255</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">1</Parameter>
+			<Parameter type="Float">1000</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Character</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+		<Property type="RangedMovement">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+		<Property type="Alive">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="SomethingMoving">
+		<Property type="Position">
+			<Parameter type="Float">490</Parameter>
+			<Parameter type="Float">560</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="RandomInt">255</Parameter>
+			<Parameter type="RandomInt">255</Parameter>
+			<Parameter type="RandomInt">255</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		<Property type="MovingRight">
+			<Parameter type="Bool">false</Parameter>
+		</Property>
+		<Property type="MovingLeft">
+			<Parameter type="Bool">false</Parameter>
+		</Property>
+		<Property type="RangedMovement">
+		    <Parameter type="Bool">true</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+
+	<GameObject GUID="Obstacle">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">100</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Obstacle1">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">110</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle2">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">120</Parameter>
+			<Parameter type="Float">500</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle3">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">130</Parameter>
+			<Parameter type="Float">500</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle4">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">140</Parameter>
+			<Parameter type="Float">500</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle5">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">150</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle6">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">160</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+
+
+	<GameObject GUID="Obstacle7">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">100</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Obstacle8">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">110</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Obstacle9">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">150</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle10">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">160</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Obstacle11">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">120</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle12">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">130</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle13">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">140</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle14">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">460</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle15">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">470</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle16">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">480</Parameter>
+			<Parameter type="Float">500</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle17">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">490</Parameter>
+			<Parameter type="Float">500</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle18">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">500</Parameter>
+			<Parameter type="Float">500</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle19">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">510</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle20">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">520</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+
+
+	<GameObject GUID="Obstacle21">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">460</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Obstacle22">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">470</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Obstacle23">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">510</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle24">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">520</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Obstacle25">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">480</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle26">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">490</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle27">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">500</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	
+		<GameObject GUID="Obstacle28">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">830</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle29">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">840</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle30">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">850</Parameter>
+			<Parameter type="Float">500</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle31">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">860</Parameter>
+			<Parameter type="Float">500</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle32">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">870</Parameter>
+			<Parameter type="Float">500</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle33">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">880</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle34">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">890</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+
+
+	<GameObject GUID="Obstacle35">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">830</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Obstacle36">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">840</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Obstacle37">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">880</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle38">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">890</Parameter>
+			<Parameter type="Float">520</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Obstacle39">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">850</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle40">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">860</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Obstacle41">
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">10, 10</Parameter>
+		</Property>
+		<Property type="Position">
+			<Parameter type="Float">870</Parameter>
+			<Parameter type="Float">510</Parameter>
+		</Property>
+		<Property type="CollisionType">
+			<Parameter type="Text">Obstacle</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="PlayerShot">
+		<Property type="Position">
+			<Parameter type="Float">200</Parameter>
+			<Parameter type="Float">20000</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">255</Parameter>
+			<Parameter type="Int">255</Parameter>
+			<Parameter type="Int">1</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">1000</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="ShotSpeed">
+		    <Parameter type="Float">-6</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">2, 10</Parameter>
+		</Property>
+		<Property type="ShotMovement">
+		    <Parameter type="Bool">true</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="AlienShot">
+		<Property type="Position">
+			<Parameter type="Float">500</Parameter>
+			<Parameter type="Float">20000</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">255</Parameter>
+			<Parameter type="Int">1</Parameter>
+			<Parameter type="Int">1</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">1000</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="ShotSpeed">
+		    <Parameter type="Float">6</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">2, 10</Parameter>
+		</Property>
+		<Property type="ShotMovement">
+		    <Parameter type="Bool">true</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+			<GameObject GUID="AlienShot2">
+		<Property type="Position">
+			<Parameter type="Float">480</Parameter>
+			<Parameter type="Float">20000</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">255</Parameter>
+			<Parameter type="Int">1</Parameter>
+			<Parameter type="Int">1</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">1000</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="ShotSpeed">
+		    <Parameter type="Float">5</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">2, 10</Parameter>
+		</Property>
+		<Property type="ShotMovement">
+		    <Parameter type="Bool">true</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+				<GameObject GUID="AlienShot3">
+		<Property type="Position">
+			<Parameter type="Float">460</Parameter>
+			<Parameter type="Float">20000</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">255</Parameter>
+			<Parameter type="Int">1</Parameter>
+			<Parameter type="Int">1</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">1000</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="ShotSpeed">
+		    <Parameter type="Float">7</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">2, 10</Parameter>
+		</Property>
+		<Property type="ShotMovement">
+		    <Parameter type="Bool">true</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien">
+		<Property type="Position">
+			<Parameter type="Float">50</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien2">
+		<Property type="Position">
+			<Parameter type="Float">90</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+
+	<GameObject GUID="Alien3">
+		<Property type="Position">
+			<Parameter type="Float">130</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien4">
+		<Property type="Position">
+			<Parameter type="Float">170</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien5">
+		<Property type="Position">
+			<Parameter type="Float">210</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien6">
+		<Property type="Position">
+			<Parameter type="Float">250</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien7">
+		<Property type="Position">
+			<Parameter type="Float">290</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Alien8">
+		<Property type="Position">
+			<Parameter type="Float">330</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien9">
+		<Property type="Position">
+			<Parameter type="Float">370</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien10">
+		<Property type="Position">
+			<Parameter type="Float">410</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien11">
+		<Property type="Position">
+			<Parameter type="Float">450</Parameter>
+			<Parameter type="Float">50</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+
+		<GameObject GUID="Alien12">
+		<Property type="Position">
+			<Parameter type="Float">50</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+
+	<GameObject GUID="Alien13">
+		<Property type="Position">
+			<Parameter type="Float">90</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien14">
+		<Property type="Position">
+			<Parameter type="Float">130</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien15">
+		<Property type="Position">
+			<Parameter type="Float">170</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	  	  
+	<GameObject GUID="Alien16">
+		<Property type="Position">
+			<Parameter type="Float">210</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+			 
+	<GameObject GUID="Alien17">
+		<Property type="Position">
+			<Parameter type="Float">250</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+  	  
+	<GameObject GUID="Alien18">
+		<Property type="Position">
+			<Parameter type="Float">290</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+    
+	<GameObject GUID="Alien19">
+		<Property type="Position">
+			<Parameter type="Float">330</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien20">
+		<Property type="Position">
+			<Parameter type="Float">370</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+		  
+	<GameObject GUID="Alien21">
+		<Property type="Position">
+			<Parameter type="Float">410</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+		 
+	<GameObject GUID="Alien22">
+		<Property type="Position">
+			<Parameter type="Float">450</Parameter>
+			<Parameter type="Float">90</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+ 	
+		
+		<GameObject GUID="Alien23">
+		<Property type="Position">
+			<Parameter type="Float">50</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien24">
+		<Property type="Position">
+			<Parameter type="Float">90</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien25">
+		<Property type="Position">
+			<Parameter type="Float">130</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien26">
+		<Property type="Position">
+			<Parameter type="Float">170</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien27">
+		<Property type="Position">
+			<Parameter type="Float">210</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien28">
+		<Property type="Position">
+			<Parameter type="Float">250</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien29">
+		<Property type="Position">
+			<Parameter type="Float">290</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Alien30">
+		<Property type="Position">
+			<Parameter type="Float">330</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien31">
+		<Property type="Position">
+			<Parameter type="Float">370</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien32">
+		<Property type="Position">
+			<Parameter type="Float">410</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien33">
+		<Property type="Position">
+			<Parameter type="Float">450</Parameter>
+			<Parameter type="Float">130</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		
+	<GameObject GUID="Alien34">
+		<Property type="Position">
+			<Parameter type="Float">50</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien35">
+		<Property type="Position">
+			<Parameter type="Float">90</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+
+	<GameObject GUID="Alien36">
+		<Property type="Position">
+			<Parameter type="Float">130</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien37">
+		<Property type="Position">
+			<Parameter type="Float">170</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien38">
+		<Property type="Position">
+			<Parameter type="Float">210</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien39">
+		<Property type="Position">
+			<Parameter type="Float">250</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien40">
+		<Property type="Position">
+			<Parameter type="Float">290</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Alien41">
+		<Property type="Position">
+			<Parameter type="Float">330</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien42">
+		<Property type="Position">
+			<Parameter type="Float">370</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien43">
+		<Property type="Position">
+			<Parameter type="Float">410</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien44">
+		<Property type="Position">
+			<Parameter type="Float">450</Parameter>
+			<Parameter type="Float">170</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+
+		<GameObject GUID="Alien45">
+		<Property type="Position">
+			<Parameter type="Float">50</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+
+	<GameObject GUID="Alien46">
+		<Property type="Position">
+			<Parameter type="Float">90</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien47">
+		<Property type="Position">
+			<Parameter type="Float">130</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien48">
+		<Property type="Position">
+			<Parameter type="Float">170</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	  	  
+	<GameObject GUID="Alien49">
+		<Property type="Position">
+			<Parameter type="Float">210</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+			 
+	<GameObject GUID="Alien50">
+		<Property type="Position">
+			<Parameter type="Float">250</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+  	  
+	<GameObject GUID="Alien51">
+		<Property type="Position">
+			<Parameter type="Float">290</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+    
+	<GameObject GUID="Alien52">
+		<Property type="Position">
+			<Parameter type="Float">330</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien53">
+		<Property type="Position">
+			<Parameter type="Float">370</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+		  
+	<GameObject GUID="Alien54">
+		<Property type="Position">
+			<Parameter type="Float">410</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+		 
+	<GameObject GUID="Alien55">
+		<Property type="Position">
+			<Parameter type="Float">450</Parameter>
+			<Parameter type="Float">210</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+ 	
+		
+		<GameObject GUID="Alien56">
+		<Property type="Position">
+			<Parameter type="Float">50</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien57">
+		<Property type="Position">
+			<Parameter type="Float">90</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien58">
+		<Property type="Position">
+			<Parameter type="Float">130</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien59">
+		<Property type="Position">
+			<Parameter type="Float">170</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien60">
+		<Property type="Position">
+			<Parameter type="Float">210</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien61">
+		<Property type="Position">
+			<Parameter type="Float">250</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien62">
+		<Property type="Position">
+			<Parameter type="Float">290</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+		<GameObject GUID="Alien63">
+		<Property type="Position">
+			<Parameter type="Float">330</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien64">
+		<Property type="Position">
+			<Parameter type="Float">370</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien65">
+		<Property type="Position">
+			<Parameter type="Float">410</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="Alien66">
+		<Property type="Position">
+			<Parameter type="Float">450</Parameter>
+			<Parameter type="Float">250</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+			<Parameter type="Int">0</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+	
+	<GameObject GUID="AlienMovement">
+	    <Property type="AlienMovement">
+		    <Parameter type="Bool">true</Parameter>
+		</Property>
+		<Property type="MovingRight">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+		<Property type="Count">
+			<Parameter type="Int">0</Parameter>
+		</Property>
+	</GameObject>
+	
+</GameObjects>

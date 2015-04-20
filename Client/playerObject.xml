@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GameObjects>
+		<GameObject GUID="NewPlayer">
+		<Property type="Position">
+			<Parameter type="Float">20000</Parameter>
+			<Parameter type="Float">20000</Parameter>
+		</Property>
+		<Property type="Color">
+			<Parameter type="RandomInt">255</Parameter>
+			<Parameter type="RandomInt">255</Parameter>
+			<Parameter type="RandomInt">255</Parameter>
+		</Property>
+		<Property type="Range">
+			<Parameter type="Float">30</Parameter>
+			<Parameter type="Float">970</Parameter>
+			<Parameter type="Float">0</Parameter>
+			<Parameter type="Float">10000</Parameter>
+		</Property>
+		<Property type="BoundingBox">
+			<Parameter type="Rectangle">20, 20</Parameter>
+		</Property>
+		<Property type="MovingRight">
+			<Parameter type="Bool">false</Parameter>
+		</Property>
+		<Property type="MovingLeft">
+			<Parameter type="Bool">false</Parameter>
+		</Property>
+		<Property type="RangedMovement">
+		    <Parameter type="Bool">true</Parameter>
+		</Property>
+		<Property type="Collisions">
+			<Parameter type="Bool">true</Parameter>
+		</Property>
+	</GameObject>
+</GameObjects>
